@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Simplified monochrome version for themed icons -->
+    <!-- Main rounded square container -->
+    <path
+        android:pathData="M 38,38 L 70,38 A 8,8 0 0 1 78,46 L 78,62 A 8,8 0 0 1 70,70 L 38,70 A 8,8 0 0 1 30,62 L 30,46 A 8,8 0 0 1 38,38 Z"
+        android:fillColor="#000000"/>
+
+    <!-- Play triangle -->
+    <path
+        android:pathData="M 47,44 L 47,64 L 65,54 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Film strip markers -->
+    <path
+        android:pathData="M 34,42 L 36,42 L 36,46 L 34,46 Z M 34,50 L 36,50 L 36,54 L 34,54 Z M 34,58 L 36,58 L 36,62 L 34,62 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"/>
+
+    <path
+        android:pathData="M 72,42 L 74,42 L 74,46 L 72,46 Z M 72,50 L 74,50 L 74,54 L 72,54 Z M 72,58 L 74,58 L 74,62 L 72,62 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"/>
+</vector>

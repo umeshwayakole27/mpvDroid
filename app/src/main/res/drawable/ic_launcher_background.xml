@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Material 3 expressive gradient background -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor" xmlns:aapt="http://schemas.android.com/aapt">
+            <gradient
+                android:gradientRadius="108"
+                android:centerX="54"
+                android:centerY="40"
+                android:type="radial">
+                <item android:offset="0" android:color="#FF6B4EFF"/>
+                <item android:offset="0.4" android:color="#FF7C4DFF"/>
+                <item android:offset="0.7" android:color="#FF9C27B0"/>
+                <item android:offset="1" android:color="#FFBA68C8"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle decorative shapes for Material 3 expressive style -->
+    <path
+        android:pathData="M 20,20 Q 40,10 60,20 T 88,20"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.1"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M 88,88 Q 68,98 48,88 T 20,88"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.1"
+        android:fillColor="@android:color/transparent"/>
+</vector>
