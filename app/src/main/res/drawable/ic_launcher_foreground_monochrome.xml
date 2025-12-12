@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <!-- Monochrome version for themed icons (Android 13+) -->
+  <group android:scaleX="0.7"
+      android:scaleY="0.7"
+      android:translateX="16.2"
+      android:translateY="16.2">
+    <!-- Main circle -->
+    <path
+        android:pathData="M54,18 A36,36 0 1,1 18,54 A36,36 0 1,1 54,18 Z"
+        android:fillColor="#000000"/>
+    <!-- Play triangle -->
+    <path
+        android:pathData="M40,32 L40,76 L76,54 Z"
+        android:fillColor="#FFFFFF"/>
+  </group>
+</vector>
