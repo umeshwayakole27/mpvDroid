@@ -2,9 +2,6 @@
 
 A media player for Android based on [mpv-android](https://github.com/mpv-android/mpv-android) with an integrated library browser and modern Material 3 UI.
 
-> **Note**: This is a fork of [mpvKt](https://github.com/abdallahmehiz/mpvKt) with enhanced library features integrated from [mpvEx](https://github.com/jarnedemeulemeester/mpvEx).
-
-[![Build](https://github.com/abdallahmehiz/mpvKt/actions/workflows/build.yml/badge.svg)](https://github.com/abdallahmehiz/mpvKt/actions/workflows/build.yml)
 
 ## Key Features
 - **Integrated Library Browser**: Browse your local media files with folder and video list views
@@ -23,31 +20,14 @@ A media player for Android based on [mpv-android](https://github.com/mpv-android
 - **Application ID**: `com.uw.mpvDroid`
 - **Version**: 1.0.0 (versionCode 13)
 - **Minimum SDK**: Android 5.0 (API 21)
-- **Target SDK**: Android 15 (API 36)
+- **Target SDK**: Android 16 (API 36)
 
-## Showcase
 
-<img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="24%" /> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="24%" /> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="24%"> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" width="24%" />
-<img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png" width="49%" /> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" width="49%" />
-<img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/7_en-US.png" width="49%" /> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" width="49%" />
-
-## Installation
-You can download the app from the [Github releases page](https://github.com/abdallahmehiz/mpvKt/releases).
-
-> **Migration Note**: If you're upgrading from the original mpvKt, please note the application ID has changed to `com.uw.mpvDroid`. You will need to reinstall the app and your settings will need to be reconfigured.
-
-## Permissions
-mpvDroid requires the following permissions:
-- **Media Access (Android 13+)**: `READ_MEDIA_VIDEO` and `READ_MEDIA_AUDIO` for browsing your local media library
-- **Storage Access (Android 12 and below)**: `READ_EXTERNAL_STORAGE` for browsing your local media
-- **Network Access**: For streaming from network sources (SMB, FTP, HTTP, WebDAV)
-
-The app will request media permissions on first launch with an explanation dialog. You can manage permissions later in the Preferences screen.
 
 ## Building from Source
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mpvDroid_kt.git
+   git clone https://github.com/umeshwayakole27/mpvDroid_kt.git
    cd mpvDroid_kt
    ```
 
@@ -62,16 +42,6 @@ The app will request media permissions on first launch with an explanation dialo
    ./gradlew installDebug
    ```
 
-The project requires:
-- Android Studio Hedgehog or newer
-- JDK 17
-- Android SDK with API 36
-
-## Project Structure
-- **app/**: Main application module
-- **mpvEx/**: Reference library module (integrated features)
-- **config/**: Configuration files
-- **docs/**: Documentation
 
 ## Third-Party Libraries
 This project uses the following major dependencies:
@@ -87,6 +57,9 @@ This project uses the following major dependencies:
 - [mpv-android](https://github.com/mpv-android) for the base mpv library
 - [mpvKt](https://github.com/abdallahmehiz/mpvKt) for the foundation and excellent player UI
 - [mpvEx](https://github.com/jarnedemeulemeester/mpvEx) for the library browser and network features
+
+> **Note**: This is a fork of [mpvKt](https://github.com/abdallahmehiz/mpvKt) with enhanced library features integrated from [mpvEx](https://github.com/jarnedemeulemeester/mpvEx).
+
 
 ## License
 See [LICENSE](LICENSE) file for details.
